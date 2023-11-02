@@ -1,9 +1,7 @@
 #include "point.h"
 #include <math.h>
 
-Point::Point(double x, double y){
-    x=x;
-    y=y;
+Point::Point(double x, double y):x(x), y(y){
 }
 
 double Point::distance(const Point& p) const{
